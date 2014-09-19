@@ -32,7 +32,8 @@ Sample use:
 
     var telephoneNumber = cordova.require("cordova/plugin/telephonenumber");
     telephoneNumber.get(function(result) {
-            console.log("result = " + result);
+            console.log("simSerialNumber = " + result.simSerialNumber); // number sim 
+            console.log("line1Number = " + result.line1Number); // telephone number (if insert sim)
         }, function() {
             console.log("error");
         });
