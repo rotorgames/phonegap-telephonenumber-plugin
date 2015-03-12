@@ -2,7 +2,7 @@
 <plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
     xmlns:android="http://schemas.android.com/apk/res/android"
     id="com.rotorgames.cordova.plugins.TelephoneNumber"
-    version="1.0.0">
+    version="1.0.1">
     <name>TelephoneNumber</name>
     <description>This plugin allows your to get hold of the telephone number from an android device</description>
     <author>Simon MacDonald, updated to Cordova 3 by Russell Stather</author>
